@@ -1,0 +1,13 @@
+{
+    "name": "spindogs/laravel-controller",
+    "type": "library",
+    "description": "Base controller enabling developers to easily share data between controller methods",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spindogs\\Laravel\\Controller\\": "src/"
+        }
+    }
+}
